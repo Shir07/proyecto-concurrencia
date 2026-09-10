@@ -22,6 +22,7 @@ Este repositorio contendrá el desarrollo del proyecto grupal enfocado en la res
 | :--- | :--- |
 | *Priscila Ohannecian* | [@Shir07](https://github.com/Shir07) |
 | *Agustín Barrientos* | [@dante-ww](https://github.com/dante-ww) |
+| *Marcelo Daniel Burgos* | [@Marcelo2120](https://github.com/Marcelo2120) |
 
 
 ---
