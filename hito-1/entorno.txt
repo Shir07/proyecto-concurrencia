@@ -1,0 +1,12 @@
+python: 3.14.6
+implementacion: CPython
+sistema: Windows 10
+maquina: AMD64
+procesador: Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+cpu_count: 8
+numpy: 2.5.3
+metodo_arranque_procesos: spawn
+n_numpy: 67108864
+n_puro: 4000000
+repeticiones: 7
+barrido_hilos: [1, 2, 4, 8, 16]
