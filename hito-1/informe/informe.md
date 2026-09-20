@@ -209,4 +209,4 @@ acumular en simple precisión; y si acá el techo fue de recursos compartidos,
 allá el candidato probable es la **transferencia host↔device** — copiar 268 MB
 por PCIe puede costar más que el kernel. Habrá que medir con y sin la copia y
 declarar cuál es cuál, la misma disciplina que aplicamos al arranque de
-procesos.
+procesos..
