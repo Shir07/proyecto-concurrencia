@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+evidencias-docker/
 # Los resultados SÍ se versionan: son la evidencia del informe.
 # Descomentar sólo si el corrector pide lo contrario.
 # resultados.csv
