@@ -3,6 +3,8 @@ services:
     build: .
     volumes:
       - .:/app
+    # Aumentamos la memoria compartida para evitar el error [Errno 28]
+    shm_size: '2gb' 
     deploy:
       resources:
         limits:
