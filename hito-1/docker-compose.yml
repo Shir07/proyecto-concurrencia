@@ -1,0 +1,9 @@
+services:
+  benchmark:
+    build: .
+    volumes:
+      - .:/app
+    deploy:
+      resources:
+        limits:
+          cpus: '4.0'
