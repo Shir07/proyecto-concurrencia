@@ -59,6 +59,7 @@ class GestorSumaParalela:
             suma_proceso
         )
 # Creacion de los procesos, ejecucion de la suma y medidion de tiempo en segundos 
+
     def ejecutar(self):
         """
         retorna la suma de todos los eleementos y el tiempo de ejecucion en segundos
@@ -97,20 +98,20 @@ if __name__ == "__main__":
     cantidad_procesos = multiprocessing.cpu_count()
     tamano_bloque = 10_000
 
-    # vector prueba.
+    # vector prueba
     vector_prueba = [
         float(indice_elemento)
         for indice_elemento in range(1, cantidad_elementos + 1)
     ]
 
-    # Crear el gestor de suma paralela
+    # Crear el gestor de suma
     gestor_suma = GestorSumaParalela(
         vector=vector_prueba,
         cantidad_procesos=cantidad_procesos,
         tamano_bloque=tamano_bloque
     )
 
-    # Ejecutar la suma
+    
     resultado, tiempo = gestor_suma.ejecutar()
 
     resultado_esperado = (
