@@ -3,8 +3,5 @@ __pycache__/
 .venv/
 venv/
 evidencias-docker/
-# Los resultados SÍ se versionan: son la evidencia del informe.
-# Descomentar sólo si el corrector pide lo contrario.
-# resultados.csv
-# speedup.png
-# entorno.txt
+.~lock.*
+
